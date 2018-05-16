@@ -1,0 +1,25 @@
+/*
+Theme Name: metricplumbing
+
+*/
+
+ul#menu-main_menu li { position:relative; }
+ul.sub-menu { width:250px; display:none; position:absolute; left:0; top:60px; background:#00203e; list-style-type:none; color:#fff; font:13px/21px 'montserratlight'; }
+ul.sub-menu li { padding:10px; }
+ul#menu-main_menu li:hover > ul.sub-menu { display:block; }
+ul.sub-menu a,ul.sub-menu a:link,ul.sub-menu a:visited { color:#fff; font:13px/21px 'montserratlight'; }
+ul.sub-menu li:hover,ul.sub-menu li:focus { background:#e5bb08; }
+ul.sub-menu li:hover a,ul.sub-menu li:focus a { color:#00274d; }
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('./fonts/montserrat-light-webfont.eot');
+    src: url('./fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat-light-webfont.woff') format('woff'),
+         url('./fonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('./fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;  font-style: normal;
+}
